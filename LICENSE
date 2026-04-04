@@ -1,32 +1,38 @@
-# VENO LICENSE
-**Version 1.0, 2026** **Copyright (c) 2026 Veno Development Team**
+VENO LICENSE
+Version 1.0, 2026
+Copyright (c) 2026 Veno Development Team
 
----
+ENGLISH
 
-## 🇬🇧 ENGLISH
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-**TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION**
+1. Grant of Rights
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
 
-**1. Grant of Rights** Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+2. The Veno Attribution Clause
+The only restriction of this license applies strictly to Open-Source publications:
+If the source code of the Software is modified, forked, or built upon to be published on the internet as a new open-source tool, framework, or library, it is mandatory that the name "Veno" is clearly stated and retained in the new project's name or core architectural attribution (e.g., Veno-Lite, Veno Custom Gateway, or Powered by Veno).
 
-**2. The Veno Attribution Clause** The only restriction of this license applies strictly to **Open-Source** publications:  
-If the source code of the Software is modified, forked, or built upon to be published on the internet as a new open-source tool, framework, or library, it is mandatory that the name **"Veno"** is clearly stated and retained in the new project's name or core architectural attribution (e.g., *Veno-Lite*, *Veno Custom Gateway*, or *Powered by Veno*).
+Exception for Commercial and Closed-Source Projects:
+This attribution requirement DOES NOT APPLY to closed-source commercial projects, internal company servers, private infrastructures, or end-user applications (SaaS, Web APIs, etc.) developed using the Software. You are not required to open-source your code or mention the "Veno" name in your closed/commercial projects. You may claim full ownership of your end products.
 
-**Exception for Commercial and Closed-Source Projects:** This attribution requirement **DOES NOT APPLY** to closed-source commercial projects, internal company servers, private infrastructures, or end-user applications (SaaS, Web APIs, etc.) developed using the Software. You are not required to open-source your code or mention the "Veno" name in your closed/commercial projects. You may claim full ownership of your end products.
+3. Limitation of Liability
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-**3. Limitation of Liability** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
----
+TÜRKÇE
 
-## 🇹🇷 TÜRKÇE
+KULLANIM, ÇOĞALTMA VE DAĞITIM İÇİN ŞARTLAR VE KOŞULLAR
 
-**KULLANIM, ÇOĞALTMA VE DAĞITIM İÇİN ŞARTLAR VE KOŞULLAR**
+1. Özgürlük ve Kullanım Hakları
+Bu yazılımın ve ilgili belgeleme dosyalarının ("Yazılım") bir kopyasını elde eden herkese; Yazılımı herhangi bir kısıtlama olmaksızın kullanma, kopyalama, değiştirme, birleştirme, yayımlama, dağıtma, alt lisanslama ve/veya ticari olarak satma hakkı tamamen ücretsiz ve koşulsuz olarak verilmiştir.
 
-**1. Özgürlük ve Kullanım Hakları** Bu yazılımın ve ilgili belgeleme dosyalarının ("Yazılım") bir kopyasını elde eden herkese; Yazılımı herhangi bir kısıtlama olmaksızın kullanma, kopyalama, değiştirme, birleştirme, yayımlama, dağıtma, alt lisanslama ve/veya ticari olarak satma hakkı tamamen ücretsiz ve koşulsuz olarak verilmiştir.
+2. Veno İsim Şartı
+Bu lisansın tek ve yegane kısıtlaması Açık Kaynak (Open-Source) yayınları kapsar:
+Yazılımın kaynak kodları değiştirilerek, çatallanarak (fork) veya üzerine eklemeler yapılarak internet üzerinde yeni bir açık kaynaklı araç, framework veya kütüphane olarak yayımlanması durumunda; ortaya çıkan yeni projenin isminde veya temel mimari açıklamasında "Veno" isminin açıkça belirtilmesi ve korunması zorunludur (Örn: Veno-Lite, Veno Custom Gateway veya Powered by Veno).
 
-**2. Veno İsim Şartı** Bu lisansın tek ve yegane kısıtlaması **Açık Kaynak (Open-Source)** yayınları kapsar:  
-Yazılımın kaynak kodları değiştirilerek, çatallanarak (fork) veya üzerine eklemeler yapılarak internet üzerinde yeni bir açık kaynaklı araç, framework veya kütüphane olarak yayımlanması durumunda; ortaya çıkan yeni projenin isminde veya temel mimari açıklamasında **"Veno"** isminin açıkça belirtilmesi ve korunması zorunludur (Örn: *Veno-Lite*, *Veno Custom Gateway* veya *Powered by Veno*).
+İstisna (Ticari ve Kapalı Projeler):
+Bu isim belirtme zorunluluğu; Yazılımın kapalı kaynaklı (closed-source) ticari projelerde, şirket içi sunucularda, özel altyapılarda veya Yazılım kullanılarak geliştirilen son kullanıcı uygulamalarında (SaaS, Web API vb.) GEÇERLİ DEĞİLDİR. Kapalı ve ticari projelerinizde kaynak kodunuzu açmak veya "Veno" ismini belirtmek zorunda değilsiniz. Kendi kapalı ürünlerinizi dilediğiniz gibi sahiplenebilirsiniz.
 
-**İstisna (Ticari ve Kapalı Projeler):** Bu isim belirtme zorunluluğu; Yazılımın kapalı kaynaklı (closed-source) ticari projelerde, şirket içi sunucularda, özel altyapılarda veya Yazılım kullanılarak geliştirilen son kullanıcı uygulamalarında (SaaS, Web API vb.) **GEÇERLİ DEĞİLDİR.** Kapalı ve ticari projelerinizde kaynak kodunuzu açmak veya "Veno" ismini belirtmek zorunda değilsiniz. Kendi kapalı ürünlerinizi dilediğiniz gibi sahiplenebilirsiniz.
-
-**3. Garanti Reddi** YAZILIM "OLDUĞU GİBİ" SAĞLANIR. TİCARETE ELVERİŞLİLİK, BELİRLİ BİR AMACA UYGUNLUK VEYA İHLAL ETMEME GARANTİLERİ DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE HİÇBİR AÇIK VEYA ZIMNİ GARANTİ VERİLMEZ. YAZARLAR VEYA TELİF HAKKI SAHİPLERİ, YAZILIMDAN VEYA YAZILIMIN KULLANIMINDAN DOĞAN HİÇBİR İDDİA, ZARAR VEYA DİĞER YÜKÜMLÜLÜKLERDEN (SÖZLEŞMEDEN VEYA HAKSIZ FİİLDEN KAYNAKLANAN) HİÇBİR KOŞULDA SORUMLU TUTULAMAZ.
+3. Garanti Reddi
+YAZILIM "OLDUĞU GİBİ" SAĞLANIR. TİCARETE ELVERİŞLİLİK, BELİRLİ BİR AMACA UYGUNLUK VEYA İHLAL ETMEME GARANTİLERİ DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE HİÇBİR AÇIK VEYA ZIMNİ GARANTİ VERİLMEZ. YAZARLAR VEYA TELİF HAKKI SAHİPLERİ, YAZILIMDAN VEYA YAZILIMIN KULLANIMINDAN DOĞAN HİÇBİR İDDİA, ZARAR VEYA DİĞER YÜKÜMLÜLÜKLERDEN (SÖZLEŞMEDEN VEYA HAKSIZ FİİLDEN KAYNAKLANAN) HİÇBİR KOŞULDA SORUMLU TUTULAMAZ.
