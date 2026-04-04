@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>TEST · Veno V3.0</title>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{background:#080c14;color:#e2e8f0;font-family:'SF Pro Display',-apple-system,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center}
+    .card{background:#0f1623;border:1px solid #1a2235;border-radius:16px;padding:40px 48px;width:420px;box-shadow:0 32px 64px -12px rgba(0,0,0,.7)}
+    .badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;padding:3px 10px;border-radius:20px;background:#f59e0b22;color:#f59e0b;border:1px solid #f59e0b44;margin-bottom:20px}
+    h1{font-size:26px;font-weight:700;color:#f8fafc;margin-bottom:4px}
+    .sub{font-size:13px;color:#64748b;margin-bottom:32px}
+    .row{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid #1a2235;font-size:13px}
+    .row:last-child{border-bottom:none}
+    .label{color:#64748b}.val{font-weight:600}
+    .green{color:#10b981}.blue{color:#3b82f6}.purple{color:#a78bfa}.accent{color:#f59e0b}
+    .footer{margin-top:28px;display:flex;gap:20px;justify-content:center}
+    a{color:#3b82f6;text-decoration:none;font-size:12px}a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">VENO ENTERPRISE V3.0</div>
+    <h1>TEST</h1>
+    <p class="sub">v1.0.0 · Production</p>
+    <div class="row"><span class="label">Durum</span><span class="val green">● Çalışıyor</span></div>
+    <div class="row"><span class="label">Port</span><span class="val blue">8080</span></div>
+    <div class="row"><span class="label">Ortam</span><span class="val purple">production</span></div>
+    <div class="row"><span class="label">Güvenlik</span><span class="val accent">NORMAL</span></div>
+    <div class="row"><span class="label">Mod</span><span class="val">Statik Dosya Sunucu</span></div>
+    <div class="row"><span class="label">Cache</span><span class="val">128 MB LRU</span></div>
+    <div class="footer">
+      <a href="/__veno/health">Health</a>
+      <a href="/__veno/metrics">Metrics</a>
+    </div>
+  </div>
+</body>
+</html>

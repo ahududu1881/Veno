@@ -1,0 +1,25 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║   VENO V3.0 — routes.toml | Yönlendirme & Upstream      ║
+# ╚══════════════════════════════════════════════════════════╝
+#
+# location = "/" → varsayılan (tüm istekler)
+# location = "/api/" → sadece /api/ ile başlayanlar
+# Strateji: round_robin | least_conn | weighted
+
+# Upstream tanımlanmadı — statik dosya sunucu olarak çalışıyor.
+#
+# Ters proxy eklemek için:
+# [[upstream]]
+#   id              = "api_backend"
+#   location        = "/api/"
+#   strategy        = "round_robin"
+#   nodes           = ["http://127.0.0.1:9001", "http://127.0.0.1:9002"]
+#   weights         = [1, 1]
+#   health_check    = "/health"
+#   health_interval = 15
+#   cache_enabled   = true
+#   cache_ttl       = 30
+#   [upstream.circuit_breaker]
+#     max_failures  = 5
+#     reset_timeout = 30
+#     probes        = 2

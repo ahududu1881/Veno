@@ -1,0 +1,44 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║   VENO V3.0 — security.toml | Güvenlik Yapılandırması   ║
+# ╚══════════════════════════════════════════════════════════╝
+#
+# Profiller: strict | normal | relaxed | dev | custom
+#   strict  — 100 req/60s · WAF score≥6  · ban 3600s
+#   normal  — 500 req/60s · WAF score≥10 · ban 300s
+#   relaxed — 2000 req/60s · score≥15   · ban 60s
+#   dev     — 10000 req/60s · log-only  · ban yok
+#   custom  — [waf.custom] + [rate_limit.custom] kullanılır
+
+[waf]
+  enabled = true
+  profile = "normal"
+
+  [waf.custom]
+    block_score  = 10
+    max_body_mb  = 10
+    log_only     = false
+    ip_whitelist = []
+    ip_blacklist = []
+
+[rate_limit]
+  enabled = true
+  profile = "normal"
+  key     = "ip"   # ip | header
+
+[cors]
+  enabled  = true
+  origins  = ["*"]
+  methods  = ["GET","POST","PUT","DELETE","PATCH","OPTIONS"]
+  headers  = ["Authorization","Content-Type","X-Request-ID","Accept"]
+  expose_headers = ["X-Veno-Cache","X-Request-ID"]
+  credentials = false
+  max_age  = 3600
+
+[headers]
+  "Strict-Transport-Security" = "max-age=63072000; includeSubDomains; preload"
+  "X-Powered-By"              = "Veno Framework v3.0"
+
+# [[redirect]]
+#   from   = "^/eski-yol/(.*)"
+#   to     = "/yeni-yol/$1"
+#   status = 301
