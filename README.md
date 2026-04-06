@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🚀 VENO FRAMEWORK V3.0</h1>
+  <h1>VENO FRAMEWORK V3.0</h1>
 </div>
 
 [![Go Version](https://img.shields.io/badge/Go-1.22+-00ADD8?style=flat-square&logo=go)](https://golang.org/)
